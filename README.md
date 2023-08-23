@@ -126,7 +126,7 @@ $$
 
 Where:
 - $f'(0)$, $f''(0)$, etc., signify the first, second, and subsequent derivatives of $f$ when $x = 0$.
-- The $n$th term is characterized as $\frac{x^n}{n!}$ multiplied by the $n$th derivative of $f$.
+- The $n$ th term is characterized as $\frac{x^n}{n!}$ multiplied by the $n$th derivative of $f$.
 
 ### A Key Insight: Dimensionality
 
