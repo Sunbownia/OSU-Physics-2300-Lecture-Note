@@ -16,7 +16,7 @@ We advise students to treat this document as a complementary tool. While it cove
 
 ## Copyright and Disclaimer Notice 
 
-This document is a compilation and synthesis created exclusively by students and derived from the lecture videos of Professor Michael Lisa. The original insights, interpretations, and structure of the notes are the work of the students who wrote them. The copyrights and ownership rights to the content herein belong solely to the students who compiled this document. The primary intent of this document is to serve as a supplementary resource for students enrolled in the Physics 2300 course at The Ohio State University.
+This document is a compilation and synthesis created exclusively by students and derived from the lecture videos of Professor Michael Lisa. The copyrights and ownership rights to the content herein belong solely to the students who contributed to this document. The primary intent of this document is to serve as a supplementary resource for students enrolled in the Physics 2300 course at The Ohio State University.
 
 Any individual or entity who believes their rights have been infringed upon or that there's a breach of intellectual property within this document is encouraged to make immediate contact with the compiler. Upon validation of such claims, we commit to taking prompt action, including, but not limited to, the removal of all contested content.
 
