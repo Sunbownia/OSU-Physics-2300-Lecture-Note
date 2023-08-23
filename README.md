@@ -1,8 +1,8 @@
-# Physics 2300 - Intermediate Classical Mechanics: Lecture Summary
+# Physics 2300 - Intermediate Classical Mechanics: Lecture Notes
 
 ## Purpose of This Document
 
-This document has been curated to provide students of the Physics 2300 course at The Ohio State University with a concise and structured summary of the lecture content. 
+This document has been created by students to provide fellow learners of the Physics 2300 course at The Ohio State University with a concise and structured set of notes derived from the lecture content.
 
 - **Quick Reference:** Students can quickly search keywords through the document to recall specific concepts.
  
@@ -12,11 +12,11 @@ This document has been curated to provide students of the Physics 2300 course at
 
 We advise students to treat this document as a complementary tool. While it covers the main points of the lecture, in-depth explanations, examples, and intonations from the lecturer, Professor Michael Lisa, can only be fully experienced by watching the lecture videos. Remember, Physics is not just about memorizing formulas and concepts but understanding the intricate beauty and logic that govern our universe. Dive deep, ask questions, and most importantly, enjoy the journey of learning!
 
-*All contents were initially AI-generated and organized by humans. We appreciate any help to improve our documents. We're looking forward to your input!*
+*All contents within this document were compiled and organized by students while watching the professor's lecture videos. We appreciate any help to improve our documents. We're looking forward to your input!*
 
 ## Copyright and Disclaimer Notice 
 
-This document is a compilation and synthesis derived exclusively from the lecture videos of Professor Michael Lisa. There is no original content or interpretation contributed by the compiler within this document. The copyrights and ownership rights to the content herein belong solely to Professor Michael Lisa. The primary intent of this document is to serve as a supplementary resource for students enrolled in the Physics 2300 course at The Ohio State University.
+This document is a compilation and synthesis created exclusively by students and derived from the lecture videos of Professor Michael Lisa. The original insights, interpretations, and structure of the notes are the work of the students who wrote them. The copyrights and ownership rights to the content herein belong solely to the students who compiled this document. The primary intent of this document is to serve as a supplementary resource for students enrolled in the Physics 2300 course at The Ohio State University.
 
 Any individual or entity who believes their rights have been infringed upon or that there's a breach of intellectual property within this document is encouraged to make immediate contact with the compiler. Upon validation of such claims, we commit to taking prompt action, including, but not limited to, the removal of all contested content.
 
