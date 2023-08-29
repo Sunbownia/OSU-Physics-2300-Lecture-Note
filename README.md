@@ -166,3 +166,265 @@ Newton's oversight of these minute corrections wasn't due to neglect. Even for p
 ### Conclusion
 
 The Taylor Series stands as a formidable ally in physics and broader applied sciences. By simplifying intricate functions into digestible, accessible components near chosen focal points, it unfurls a world of deeper understanding and insight.
+
+
+## Extra: Dipole-Dipole Force
+
+### Overview
+
+In this extra session, we explore the force between two electric dipoles and examine its scaling properties. We'll focus on the case where the size of each dipole $a$ is much smaller than the distance $D$ separating the two dipoles.
+
+---
+
+### Defining the Problem
+
+- **Dipole**: A pair of charges (positive and negative) separated by a distance $a$.
+- **Coulomb Force**: Force between point charges, scales as $ \frac{1}{r^2} $.
+
+Consider two dipoles:
+1. Dipole A consists of charges 1 and 2.
+2. Dipole B consists of charges 3 and 4.
+
+Goal: Find the scaling behavior of the force between dipoles A and B.
+
+---
+
+### Setting Up the Equation
+
+Using Coulomb's Law, the force between individual charges can be described. The force on dipole A due to B is a sum of forces between corresponding charges.
+
+- **Force between 1 & 3**: $ F_{1,3} = -\frac{k Q^2}{D^2} $
+- **Force between 1 & 4**: $ F_{1,4} = \frac{k Q^2}{(D+a)^2} $
+- **Force between 2 & 3**: $ F_{2,3} = \frac{k Q^2}{(D-a)^2} $
+- **Force between 2 & 4**: $ F_{2,4} = -\frac{k Q^2}{D^2} $
+
+Summing these forces:
+
+$$
+F_{A,B} = kQ^2 \left( -\frac{2}{D^2} + \frac{1}{(D+a)^2} + \frac{1}{(D-a)^2} \right)
+$$
+
+Factor out $ \frac{1}{D^2} $:
+
+$$
+F_{A,B} = kQ^2 \left( \frac{1}{D^2} \right) \left( -2 + \frac{D^2}{(D+a)^2} + \frac{D^2}{(D-a)^2} \right)
+$$
+
+Let $ x = \frac{a}{D} $, we are interested in $ x \ll 1 $.
+
+---
+
+### Approximation Using Taylor Series
+
+For $ x \ll 1 $, we can expand the function $ f(x) $ as:
+
+$$
+f(x) = f(0) + f'(0)x + \frac{1}{2}f''(0)x^2 + \ldots
+$$
+
+In our case:
+- $ f(0) = 0 $
+- $ f'(0) = 0 $
+- $ f''(0) = 12 $
+
+We find the force $ F_{A,B} $ scales as:
+
+$$
+F_{A,B} \approx 6kQ^2 \left( \frac{a^2}{D^4} \right)
+$$
+
+**Key Insight**: The force between two dipoles scales as $ \frac{1}{D^4} $.
+
+---
+
+### Conclusion
+
+- To lowest order, the force between two dipoles scales as $ \frac{1}{D^4} $.
+- This conclusion is particularly relevant when the size of the dipole $a$ is much smaller than the distance $D$ between them.
+
+---
+
+### Active Review
+
+- We started by understanding the nature of a dipole and setting up equations based on Coulomb's law.
+- We used a Taylor Series approximation to find how the force between two dipoles scales with distance.
+- The force scales as $ \frac{1}{D^4} $, which is an important result for many applications in physics and chemistry.
+
+By following these steps, you can similarly approach problems that require approximations and scaling behavior.
+
+## Lecture 2-1: Physics Statics Basics
+
+### Overview
+In this lecture, we discuss the fundamental principles of physics statics. We'll cover the laws that govern static objects and introduce the four primary forces encountered in this domain: gravity, tension, normal forces, and friction. The lecture emphasizes applying these simple laws to increasingly complex real-world situations.
+
+---
+
+### What is Statics?
+- **Definition**: Statics is the study of objects that are not in motion, i.e., velocity and angular velocity are zero.
+- **Newton's Laws**: 
+  - $$ F = ma \quad (\text{Force is mass times acceleration}) $$
+  - $$ \tau = I \alpha \quad (\text{Torque is moment of inertia times angular acceleration}) $$
+
+---
+
+### Four Fundamental Forces in Statics
+
+#### Gravity
+- **Newton's Law of Gravity**: 
+  - $$ F = \frac{{G \times m_1 \times m_2}}{{r^2}} \times \hat{r} $$
+- **Weight**: 
+  - $$ W = mg \quad (\text{Weight is mass times gravitational acceleration}) $$
+
+#### Tension
+- **Definition**: Tension is the pulling force transmitted along the length of a string, wire, or rod.
+- **Tension Variability**: Tension may vary along the string, especially if the string has mass.
+
+#### Normal Force
+- **Definition**: The normal force is the force exerted by an object that supports another object resting on it. It acts perpendicular to the surface.
+  
+#### Friction
+- **Types**: 
+  - **Static Friction**: Prevents relative motion between surfaces.
+  - **Kinetic Friction**: Opposes relative motion between surfaces.
+- **Static Friction Formula**: 
+  - $$ F_{\text{max}} = \mu N \quad (\text{Max force before sliding starts}) $$
+
+---
+
+### Newton's Third Law and Free Body Diagrams
+- **Third Law**: Every action has an equal and opposite reaction.
+- **Free Body Diagrams**: Use separate diagrams for each object involved in the problem.
+
+---
+
+### Questions & Anomalies
+- **Why is static friction not constant?**: Static friction varies depending on the applied force, up to a maximum limit defined by $ F_{\text{max}} $.
+
+---
+
+### Conclusion
+Physics statics explores the behavior of stationary objects through the interplay of forces such as gravity, tension, normal forces, and friction. Understanding Newton's laws and knowing how to draw Free Body Diagrams are essential for tackling complex problems in statics.
+
+---
+
+### Active Review
+- Recall Newton's laws and how they apply to static scenarios.
+- Familiarize yourself with the four key forces: gravity, tension, normal forces, and friction.
+- Understand the importance of Newton's third law and separate Free Body Diagrams in problem-solving.
+
+## Lecture 2-2: Comprehensive Analysis of Morin
+
+### Overview
+
+Today's session dives deep into Problems 2.3.5 and 2.6 from Morin's book. The aim is to gain a thorough understanding of forces and motion through the study of two mechanical systems involving tension, normal force, and friction.
+
+---
+
+### Setting Up Both Problems
+
+#### Morin 1: Sticks & Strings on a Frictionless Surface
+
+- **Problem Description**: Two sticks are on a frictionless surface, connected by a hinge at the top and a string at the bottom.
+- **Key Geometry**: 
+  - Angles: $ \alpha = 90^{\circ} - \theta $ 
+  - $ \alpha + \theta = 90^{\circ} $
+
+#### Morin 2: Tension, Normal Force, and Friction
+
+- **Static Situation**: All forces are in equilibrium.
+- **Massless String**: Tension (T) remains constant along the string in static cases.
+
+---
+
+### Free Body Diagrams and Forces
+
+#### Morin 1: Right & Left Stick
+
+- **Forces for Each Stick**: 
+  - Weight downward
+  - Normal force upward
+  - Tension $ T_{R/L} $
+  - Hinge forces $ \pm H_x $ and $ \pm H_y $
+
+#### Morin 2: Infinitesimal Rope Element
+
+- **Forces**: 
+  - Tension $ T $
+  - Normal force $ dN $
+  - Friction $ df $
+
+---
+
+### Equations of Motion and Analysis
+
+#### Morin 1:
+
+1. **Horizontal Forces for Left Stick**: $ T_{Lx} - H_x = 0 $
+2. **Vertical Forces for Left Stick**: $ N_L + T_{Ly} - H_y - mg = 0 $
+3. **Torque for Left Stick**: $ T_{Lx} \times L - mg \times L - N_L \times L = 0 $
+
+#### Morin 2:
+
+1. **Tension**: Upward force = $2T$, Downward force = $mg$
+2. **Normal Force**: $ dN = T \times d\phi $
+3. **Friction**: $ df = \mu \times dN $
+
+**Key Insight: Dimensionality**
+- Tension varies with angle $ \phi $ due to the friction force acting along the rope's length.
+
+---
+
+### Strategies for Solving Equations & Insights
+
+#### Morin 1:
+
+- **5 Equations, 5 Unknowns**: $ T, H_x, H_y, N_L, N_R $
+  - Solve for $ N_L $ using equation 3.
+  - Substitute $ N_L $ into equation 2 to find $ H_y $.
+  - Use $ H_y $ in equation 5 to solve for $ T $.
+
+#### Morin 2:
+
+- **Tension Varies**: It varies with the angle $ \phi $ due to the friction force acting along the rope's length.
+
+---
+
+### Conclusion
+
+- **Free Body Diagrams** are the backbone for analyzing mechanical systems.
+- **Geometry and Dimensionality** play a critical role in simplifying equations and understanding variable forces like tension.
+
+---
+
+### Questions & Anomalies
+
+- **For Morin 1**: Why did we use multiple Free Body Diagrams?
+- **For Morin 2**: What happens to the system if the tension varies recursively due to friction?
+### Answers to Questions & Anomalies
+
+#### For Morin 1: Why did we use multiple Free Body Diagrams?
+
+- **Clarity**: Each stick has different forces acting upon it, requiring its own diagram to isolate those forces.
+- **Precision**: Analyzing each stick separately helps to identify individual forces, making it easier to formulate equations of motion.
+- **Simplification**: With separate diagrams, you can tackle each equation independently before combining them to find the solution.
+
+#### For Morin 2: What happens to the system if the tension varies recursively due to friction?
+
+- **Non-Linearity**: The tension no longer remains a constant value throughout the rope. This adds a level of complexity to solving equations of motion.
+- **Dimensionality Insight**: As the angle $ \phi $ changes, so does the normal force $ dN $ and hence the friction $ df $, causing a recursive change in tension $ T $.
+- **System Instability**: If the tension changes recursively in a way that exceeds the frictional capacity of the system, the rope may slip or the system could become unstable.
+
+---
+
+### Active Review
+
+- We used multiple Free Body Diagrams in Morin 1 for clearer analysis, precise force identification, and simpler equation formulation.
+- In Morin 2, the dimensionality played a significant role in understanding how tension varies recursively due to the friction force, adding complexity to the system.
+---
+
+### Active Review
+
+- How did geometry and free body diagrams simplify the equations for Morin 1?
+- What role did dimensionality play in understanding tension variations in Morin 2?
+
+---
